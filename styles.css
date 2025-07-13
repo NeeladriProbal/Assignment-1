@@ -1,0 +1,88 @@
+/* header */
+.header-bg{
+    background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
+    width: 1440px;
+    height: 698px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 34;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+/* banner */
+.banner-desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #252432;
+    margin: 80px;
+}
+.cntr{
+    text-align: center;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-align: center;
+}
+main, footer{
+    background-color: white;
+}
+.main-img{
+    border-radius: 40px;
+}
+.Main{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+*{
+    margin: 0;
+}
+.action{
+    margin: 80px;
+    padding: 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.see{
+    font-size: 2em;
+}
+.productive-user{
+    background-color: #d5d4e1;
+    height: 306px;
+    weight:1140px;
+    margin: 0px 160px;
+    border-radius: 10px;
+}
+.puh{
+    font-weight: bold;
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px 142px;
+}
+.numbers{
+    display: flex;
+    gap: 30px;
+    margin-left: 142px;
+    margin-right: 142px;
+}
