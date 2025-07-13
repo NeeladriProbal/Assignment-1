@@ -43,8 +43,9 @@
     padding: 10px 25px;
     text-align: center;
 }
-main, header{
+.header-main-bg{
     background-color: rgb(243, 245, 255);
+    padding-bottom: 70px;
 }
 .main-img{
     border-radius: 40px;
@@ -143,4 +144,28 @@ main input[type="text"], footer input[type="email"], footer textarea{
     border-radius: 5px;
     width: 200px;
     height: 20px;
+}
+.LOGO{
+    font-weight: bolder;
+    font-size: 5em;
+    color: blue;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f-description{
+   margin-left: 33%;
+   color: #8987A1;
+}
+ul{
+    display: flex;
+    margin-left: 33%;
+    color:#8987A1;
+    list-style: none;
+    padding: 20px;
+    gap: 50px;
+    
+}
+A{
+    text-decoration: none;
 }
