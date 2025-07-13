@@ -43,8 +43,8 @@
     padding: 10px 25px;
     text-align: center;
 }
-main, footer{
-    background-color: white;
+main, header{
+    background-color: rgb(243, 245, 255);
 }
 .main-img{
     border-radius: 40px;
@@ -79,10 +79,68 @@ main, footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 50px 142px;
+    color: #252432;
 }
 .numbers{
     display: flex;
     gap: 30px;
-    margin-left: 142px;
-    margin-right: 142px;
+    
+    padding: 0px 190px;
+    gap: 150px;
+}
+.n{
+    color: #4E47FF;
+    font-size: 4em;
+}
+.feedback-header{
+    text-align: center;
+    margin-top: 190px;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    max-width: 230px;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+}
+.card-img-detalis{
+    display: flex; 
+    gap: 15px;
+    /* padding: 20px; */
+}
+.user-feedback{
+    display: flex;
+    margin-left: 110px;
+}
+.get-in-touch{
+    font-size: 5em;
+    margin-left: 200px;
+    /* margin-top: 200px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.get-in-touch-form{
+    display: flex;
+    margin-top: 200px;
+    gap: 100px;
+}
+main input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+}
+.get-in-touch-btn{
+    background-color: blue;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
 }
