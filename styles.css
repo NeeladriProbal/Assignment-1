@@ -70,6 +70,7 @@ a:hover {
   background-color: rgb(243, 245, 255);
   padding-bottom: 70px;
 }
+
 .main-img {
   border-radius: 40px;
 }
@@ -152,41 +153,47 @@ a:hover {
 .get-in-touch {
   font-size: 5em;
   margin-left: 200px;
-  /* margin-top: 200px; */
+  margin-top: 100px;
 }
 .get-in-touch-form {
   display: flex;
   margin-top: 200px;
-  gap: 100px;
+  gap: 300px;
+  justify-content: center;
 }
-main input[type="text"],
-footer input[type="email"],
-footer textarea {
-  height: 64px;
-  border-radius: 5px;
-  background-color: white;
-  display: block;
-  width: 100%;
-  padding: 10px 20px;
-  margin-bottom: 25px;
-  border: none;
+input[type="text"], 
+input[type="name"],
+input[type="email"], 
+textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 150%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: darkslategrey;
+    margin-top: 5px;
 }
 .get-in-touch-btn {
   background-color: blue;
-  display: block;
+  display: flex;
   color: white;
   border-radius: 5px;
-  width: 200px;
-  height: 20px;
+  width: 165%;
+  height: 50px;
+  border: none;
+  align-items: center;
+  justify-content: center;
 }
 footer{
     text-align: center;
 }
+
 .LOGO {
   font-weight: bolder;
   font-size: 5em;
   color: blue;
-  /* margin-left: 40%; */
   margin-top: 5%;
 }
 .f-description {
@@ -203,3 +210,6 @@ ul {
 A {
   text-decoration: none;
 }
+
+
+
